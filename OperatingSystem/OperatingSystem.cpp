@@ -1,9 +1,7 @@
 #include "OperatingSystem.h"
+#include "../../Registry/Registry/Registry.h" // https://github.com/MoongStory/Registry
 
 #include <Windows.h>
-
-// https://github.com/MoongStory/Registry
-#include "../../Registry/Registry/Registry.h"
 
 const std::string MOONG::OperatingSystem::GetWindowsVersion()
 {
