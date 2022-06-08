@@ -3,7 +3,7 @@
 
 #include <Windows.h>
 
-const std::string MOONG::OperatingSystem::GetWindowsVersion()
+const std::string MOONG::OperatingSystem::GetWindowsProductName()
 {
 	std::string windows_version;
 

@@ -2,7 +2,7 @@
 
 int main()
 {
-	std::cout << "[" << MOONG::OperatingSystem::GetWindowsVersion() << "]" << std::endl;
+	std::cout << "GetWindowsProductName[" << MOONG::OperatingSystem::GetWindowsProductName() << "]\n" << std::endl;
 
 	return 0;
 }

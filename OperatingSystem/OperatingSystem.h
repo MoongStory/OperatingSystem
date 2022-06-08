@@ -20,7 +20,7 @@ namespace MOONG
 	private:
 
 	public:
-		static const std::string GetWindowsVersion();
+		static const std::string GetWindowsProductName();
 	protected:
 	private:
 	};
